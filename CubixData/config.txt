@@ -1,0 +1,4 @@
+soundVolume=0.15492958
+vsync=true
+defaultCursor=true
+musicVolume=0.056338027
