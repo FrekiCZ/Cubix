@@ -46,7 +46,7 @@ public class Main {
 		if(gameDirIndex != -1) {
 			FileLocation.setDataFolder(args[gameDirIndex]);
 		} else {
-			FileLocation.setDataFolder("Cubix");
+			FileLocation.setDataFolder("CubixData");
 		}
 		
 		Session session = new Session(username, uuid);
@@ -76,7 +76,7 @@ public class Main {
 		}
 		
 		String jarDir = System.getProperty("user.dir");
-		System.setProperty("org.lwjgl.librarypath", jarDir + File.separator + "Cubix" + File.separator + "natives" + File.separator + native_folder);
+		System.setProperty("org.lwjgl.librarypath", jarDir + File.separator + "CubixData" + File.separator + "natives" + File.separator + native_folder);
 		System.out.println("INFO: Natives load.");
 	}
 	
